@@ -1,0 +1,95 @@
+
+thead{
+  color: #636464;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: 0.85em;
+}
+
+.liner{
+  padding: .6em 0;
+  background-color: #ffffff;
+  margin: 0.5em 0;
+  border-radius: 2px
+}
+.liner span{
+  display: inline-block;
+}
+
+.course-list-body{
+  position: relative;
+  overscroll-behavior: auto;
+  border-bottom: 1px solid #dfdfdf;
+  overflow-x: auto;
+}
+
+.btn-holders{
+  margin: 3em 0 0 0;
+  margin: 3em 0 0 0;
+  justify-content: flex-end;
+  display: flex;
+}
+
+button{
+  margin-left: 1.5em;
+  width: 5em;
+}
+
+.headings span:nth-child(1), .course-list-body .liner span:nth-child(1){
+  width: 3em;
+  min-width: 2.5em;
+}
+
+.headings span:nth-child(2), .liner span:nth-child(2){
+  width: 8em;
+  min-width: 7em;
+}
+
+.headings span:nth-child(3), .liner span:nth-child(3){
+  width: 10em;
+  min-width: 5em;
+}
+
+.headings span:nth-child(4), .liner span:nth-child(4){
+  width: 10em;
+  min-width: 10em;
+}
+
+.headings span:nth-child(5), .liner span:nth-child(5){
+  width: 12em;
+  min-width: 12em;
+}
+
+.headings span:nth-child(6), .liner span:nth-child(6){
+  width: 10em;
+  min-width: 10em;
+}
+
+.headings span:nth-child(7), .liner span:nth-child(7){
+  width: 10em;
+  min-width: 10em;
+}
+
+.headings span{
+  display: inline-block;
+  width: 10em;
+  min-width: 6em;
+}
+
+.headings{
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dfdfdf;
+  font-weight: 600;
+}
+
+.moreBtn{
+  float: right;
+  padding: .8em .4em 1.2em;
+  border: 1px solid #bec6cd;
+  border-radius: 0.1875rem;
+  color: #4b566b;
+}
+
+.telSym{
+  color: red;
+}

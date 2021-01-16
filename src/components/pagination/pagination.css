@@ -1,0 +1,23 @@
+span{
+  padding: 0.6em 0.7em;
+  font-size: medium;
+  line-height: 0;
+  margin: 0 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+.paginate span{
+  background-color: #ffffff;
+  color: #0d6efd;
+}
+
+.btnHolder{
+  text-align: right;
+  margin: 1.5em 0 1.5em 1.5em;
+}
+
+.active{
+  background-color: rgba(13,110,253,.25) !important;
+}

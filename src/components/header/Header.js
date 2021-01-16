@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import './header.css';
+
 class Header extends Component {
   render() {
     return (
-      <div>
-        <h2>TRANSACTIONS</h2>
-      </div>
+      <h5>Transactions Report</h5>
     );
   }
 }

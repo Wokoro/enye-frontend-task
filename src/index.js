@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import storeInstance from './store/store';
+
+export const StoreContext = React.createContext();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StoreContext.Provider value={storeInstance}>
+      <App />
+    </StoreContext.Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,4 +1,19 @@
+input[type="text"],input[type="search"]{
+  outline: none;
+  padding: 10px;
+  width: 13em;
+  display: inline-block;
+  margin-left: 0.4em;
+  border-radius: 3px
+}
+
+input{
+  padding: 0.47em;
+  border: 1px solid #bec6cd;
+}
+
 body {
+  background-color: #f6f9fc !important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

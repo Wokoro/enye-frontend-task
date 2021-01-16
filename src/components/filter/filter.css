@@ -1,0 +1,32 @@
+form{
+  background-color: #ffffff;
+  padding: 0.4em;
+  display: inline-block;
+}
+
+form input{
+  padding: 5px;
+}
+
+.padLeft{
+  margin-left: 2em !important;
+}
+
+.btn{
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-right: .5rem;
+  padding: 0.55rem 1.5rem;
+  border: 1px solid #bec6cd;
+  border-radius: 0.1875rem;
+  color: #4b566b;
+  font-size: 0.75rem !important;
+  white-space: nowrap;
+  line-height: 1.5;
+}
+
+.filterBtnHolder{
+  text-align: right;
+  margin: 1.5em 0 1.5em 1.5em;
+  display: inline;
+}

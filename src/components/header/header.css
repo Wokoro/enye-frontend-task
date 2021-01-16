@@ -1,0 +1,16 @@
+h5{
+  margin: 2em 0;
+}
+
+ul{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1em;
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+  display: block;
+  margin-right: 4em;
+}

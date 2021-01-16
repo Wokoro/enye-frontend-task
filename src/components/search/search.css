@@ -1,0 +1,13 @@
+.search{
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input :focus{
+  outline: none !important;
+  padding: 5px;
+  width: 13em;
+  margin-left: 1em;
+}
